@@ -1,0 +1,99 @@
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#d9f4ff;
+    display:flex;
+    justify-content:center;
+}
+
+.phone{
+    width:390px;
+    min-height:850px;
+    background:linear-gradient(#d8ecff,#23c7d9);
+    padding:25px;
+    box-sizing:border-box;
+}
+
+h1{
+    color:#2767c7;
+    text-align:center;
+}
+
+.car{
+    font-size:80px;
+    text-align:center;
+    margin:20px;
+}
+
+input{
+    width:100%;
+    padding:15px;
+    margin:10px 0;
+    border-radius:20px;
+    border:2px solid #2767c7;
+    box-sizing:border-box;
+}
+
+button{
+    width:100%;
+    padding:15px;
+    background:#2767c7;
+    color:white;
+    border:none;
+    border-radius:20px;
+    font-size:18px;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+p{
+    text-align:center;
+    color:white;
+}
+.card{
+    padding:20px;
+    border-radius:20px;
+    margin:15px 0;
+    text-align:center;
+    color:white;
+    background:#78a9e8;
+}
+
+.green{
+    background:#9be7a1;
+}
+
+.red{
+    background:#e97d8c;
+}
+
+h3{
+    color:#2767c7;
+}
+.slot{
+    display:inline-block;
+    width:90px;
+    height:70px;
+    margin:8px;
+    border-radius:15px;
+    text-align:center;
+    line-height:70px;
+    font-weight:bold;
+    color:white;
+}
+select{
+width:100%;
+padding:15px;
+margin:10px 0;
+border-radius:20px;
+border:2px solid #2767c7;
+}
+.message{
+    background:#9be7a1;
+    color:#2767c7;
+    padding:15px;
+    margin-top:15px;
+    border-radius:15px;
+    text-align:center;
+    font-weight:bold;
+}

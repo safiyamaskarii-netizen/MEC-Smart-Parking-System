@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Book Slot</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="phone">
+
+<h1>Book a Slot</h1>
+
+<select id="zone">
+<option>Select Zone</option>
+<option>Zone A</option>
+</select>
+
+<select id="slot">
+<option>Select Slot Number</option>
+<option>A1</option>
+<option>A2</option>
+<option>A4</option>
+</select>
+
+<input id="date" type="date">
+
+<input id="time" type="time">
+
+<input id="plate" type="text" placeholder="Vehicle Plate Number">
+
+<button onclick="confirmBooking()">
+Confirm Booking
+</button>
+
+<div id="bookingMessage" class="message"></div>
+
+<button onclick="location.href='dashboard.html'">
+Back
+</button>
+
+</div>
+<script src="script.js"></script>
+</body>
+</html>

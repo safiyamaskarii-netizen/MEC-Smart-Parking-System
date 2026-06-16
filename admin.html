@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Admin Dashboard</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="phone">
+
+<h1>Admin Dashboard</h1>
+
+<div class="card">
+Total Slots
+<h1>45</h1>
+</div>
+
+<div class="card green">
+Available Slots
+<h1 id="adminAvailableCount">23</h1>
+</div>
+
+<div class="card red">
+Occupied Slots
+<h1 id="adminOccupiedCount">22</h1>
+</div>
+
+<h3>Recent Bookings</h3>
+
+<div class="card">
+    User: <span id="adminUser">-</span>
+    <br><br>
+    Slot: <span id="adminSlot">-</span>
+    <br><br>
+    Status: <span id="adminStatus">-</span>
+    <br><br>
+    Time: <span id="adminTime">-</span>
+</div>
+
+<h3>Sensor Status</h3>
+
+<div class="card">
+    <strong>ESP32 Sensor Monitoring</strong>
+    <br><br>
+
+    <div id="sensorStatus"></div>
+
+    <br>
+
+    Last Update:
+    <span id="sensorTime"></span>
+</div>
+
+<button onclick="releaseSlot()">
+Release Slot
+</button>
+<button onclick="location.href='dashboard.html'">
+Back
+</button>
+
+</div>
+<script src="script.js"></script>
+</body>
+</html>
